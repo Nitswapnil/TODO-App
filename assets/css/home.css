@@ -1,0 +1,123 @@
+body{
+     background-color: rgb(231, 226, 221), 169);
+}
+
+#todo-list{
+    box-sizing: border-box;
+    text-align: center;
+    color: rgb(45, 45, 48);
+    padding-top: 35px;
+    font-size: 2.5rem;
+}
+
+#description{
+    padding-left: 15px;
+    padding-top: 15px;
+    box-sizing: border-box;  
+}
+
+input, select{
+    border-style: none; 
+    width: 100%; 
+}
+
+select{
+    background-color: rgb(231, 226, 221), 169) !important;
+}
+
+input,select:focus{
+    outline:none;
+}
+
+.margin{
+    box-sizing: border-box;
+    line-height: 25px;
+    height: 80px;
+    border-bottom: 1.5px solid rgb(195, 195, 206);
+}
+
+#cat-due{
+    display: flex;
+}
+
+#cat-due div{
+    padding-left: 15px;
+    padding-top: 15px;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+#line{
+    margin: 0px !important;
+    padding: 0px !important;
+    width:0vh;
+    border-right: 1.5px solid rgb(195, 195, 206);
+}
+
+#category{
+    width: 50%;
+}
+
+#due-date{
+    width: 50%;
+}
+
+option{
+    background-color: rgb(231, 226, 221), 169);
+}
+
+#add-del{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1.5px solid rgb(195, 195, 206);
+}
+
+#add-del button{
+    box-sizing: border-box;
+    height: 90%;
+    width: 20%;
+}
+
+#myCheck{
+    width: 20px;
+}
+
+#Task{
+    box-sizing: border-box;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#des_due{
+    width: 70%;
+}
+
+#categorybox{
+    box-sizing: border-box;
+    padding-top: 3px;
+    margin-right: 10px;
+    width:15%;
+    text-align: center;
+    height: 50%;;
+    background-color:#d1d1d1;
+}
+
+form{
+    margin: 0px;
+}
+
+#delete{
+    box-sizing: border-box;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+#delete a{
+    text-decoration: none;
+    color:rgb(49, 0, 0);
+}
